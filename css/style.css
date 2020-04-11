@@ -346,6 +346,14 @@ input[type="checkbox"] {
     width: 100%;
 }
 
+.email {
+    color: #fafafa;
+}
+
+.email:hover {
+    color: #ef9a38;
+}
+
 @media screen and (max-width: 768px) {
     #kp-aside #kp-logo {
         margin-bottom: 60px;
