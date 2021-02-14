@@ -1796,12 +1796,14 @@ ul.social-network li {
     cursor: pointer;
     opacity: 1;
     visibility: hidden;
-    padding: 12px 15px;
+    padding: 15px 18px;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-    margin: 15px 30px;
+    margin: 15px 15px;
     border-radius: 50%;
+    -webkit-backdrop-filter: blur(20px);
+    background-color: rgba(248, 248, 248, 0.1);
 }
 
 @media screen and (max-width: 768px) {
