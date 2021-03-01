@@ -26,6 +26,7 @@
 
 html,
 body {
+    background-color: #101010;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
@@ -252,7 +253,7 @@ input[type="checkbox"] {
 
 ::-webkit-selection {
     color: #fff;
-    background: #ef9a38;
+    background: #ff9f0a;
 }
 
 ::-moz-selection {
@@ -262,7 +263,7 @@ input[type="checkbox"] {
 
 ::selection {
     color: #fff;
-    background: #ef9a38;
+    background: #ff9f0a;
 }
 
 
@@ -326,7 +327,7 @@ input[type="checkbox"] {
     text-align: center;
     font-size: 16px;
     text-transform: uppercase;
-    color: #ef9a38;
+    color: #ff9f0a;
     font-weight: 400;
     letter-spacing: 3px;
 }
@@ -351,7 +352,7 @@ input[type="checkbox"] {
 }
 
 .email:hover {
-    color: #ef9a38;
+    color: #ff9f0a;
 }
 
 @media screen and (max-width: 768px) {
@@ -363,7 +364,7 @@ input[type="checkbox"] {
 #kp-aside #kp-logo a {
     display: inline-block;
     text-align: center;
-    color: #ef9a38;
+    color: #ff9f0a;
     letter-spacing: 3px;
 }
 
@@ -393,7 +394,7 @@ ul.timeline {
     width: 3px;
     height: 100%;
     margin-left: -3px;
-    background: #ef9a38;
+    background: #ff9f0a;
     z-index: 5;
 } 
 
@@ -447,11 +448,11 @@ ul.timeline {
 
 #kp-aside #kp-main-menu ul li a:hover {
     text-decoration: none;
-    color: #ef9a38;
+    color: #ff9f0a;
 }
 
 #kp-aside #kp-main-menu ul li.kp-active a {
-    color: #ef9a38;
+    color: #ff9f0a;
 }
 
 #kp-aside #kp-main-menu ul li.kp-active a:after {
@@ -633,11 +634,12 @@ ul.timeline {
 }
 
 .kp-hero .flexslider .slider-text > .slider-text-inner .desc {
-    bottom: 0px;
+    position: absolute;
+    bottom: 90px;
     left: 0;
     padding: 20px;
     background: transparent;
-    text-align: center;
+    text-align: left;
 }
 
 .kp-hero .flexslider .slider-text > .slider-text-inner .desc .image_wrap {
@@ -689,13 +691,13 @@ ul.timeline {
 
 .kp-hero .flexslider .slider-text > .slider-text-inner h1,
 .kp-hero .flexslider .slider-text > .slider-text-inner h1 {
-    font-size: 45px;
+    font-size: 6rem;
     color: #fff;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     margin: 0;
     letter-spacing: 0px;
-    line-height: normal;
+    line-height: 1.2;
 }
 
 .kp-hero .flexslider .slider-text > .slider-text-inner h2,
@@ -716,7 +718,7 @@ ul.timeline {
 
 @media screen and (max-width: 768px) {
     .kp-hero .flexslider .slider-text > .slider-text-inner h1 {
-        font-size: 30px;
+        font-size: 3.5rem;
     }
     .kp-hero .flexslider .slider-text > .slider-text-inner h2 {
         font-size: 20px;
@@ -772,16 +774,16 @@ body.offcanvas .kp-nav-toggle {
 /*** 06. Heading styles ***/
 
 .kp-heading {
-    color: #ef9a38;
+    color: #ff9f0a;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 30px;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
 
-.kp-heading span {
+.kp-heading .heading-meta {
     display: block;
 }
 
@@ -1404,7 +1406,7 @@ ol.comment-list li .children li {
 }
 
 .project-desc h2 {
-    color: #101010;
+    color: #fff;
     font-family: 'Rambla', sans-serif;
     font-weight: 700;
     font-size: 24px;
@@ -1657,7 +1659,7 @@ ul.social-network li {
 .kp-feature .kp-text h3 {
     font-weight: 700;
     margin-bottom: 10px;
-    color: #ef9a38;
+    color: #ff9f0a;
     font-size: 18px;
     font-family: 'Rambla', sans-serif;
 }
@@ -2094,7 +2096,7 @@ hr {
 
 .highlight h1 {
     text-align: right;
-    color: #ef9a38;
+    color: #ff9f0a;
     font-size: 105px;
 }
 
@@ -2123,7 +2125,7 @@ hr {
 }
 
 .cd-words-wrapper b {
-    color: #ef9a38;
+    color: #ff9f0a;
     display: inline-block;
     position: absolute;
     white-space: nowrap;
@@ -2347,4 +2349,18 @@ hr {
     100% {
         width: 85%;
     }
+}
+
+.blast {
+    opacity: 0;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.blast:hover {
+    color: #ff9f0a;
+}
+
+.ml-15 {
+    margin-left: 15px;
 }
