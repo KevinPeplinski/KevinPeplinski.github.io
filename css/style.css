@@ -640,6 +640,7 @@ ul.timeline {
     padding: 20px;
     background: transparent;
     text-align: left;
+    margin-top: 100px;
 }
 
 .kp-hero .flexslider .slider-text > .slider-text-inner .desc .image_wrap {
@@ -734,6 +735,13 @@ ul.timeline {
 @media screen and (max-width: 960px) {
     .kp-hero .flexslider .slider-text > .slider-text-inner h1 {
         font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .kp-hero .flexslider .slider-text > .slider-text-inner h1 {
+        font-size: 2rem;
+        line-height: 0.2rem;
     }
 }
 
