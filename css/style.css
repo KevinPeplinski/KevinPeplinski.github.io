@@ -691,7 +691,7 @@ ul.timeline {
 
 .kp-hero .flexslider .slider-text > .slider-text-inner h1,
 .kp-hero .flexslider .slider-text > .slider-text-inner h1 {
-    font-size: 6rem;
+    font-size: 6.5rem;
     color: #fff;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
@@ -718,10 +718,22 @@ ul.timeline {
 
 @media screen and (max-width: 768px) {
     .kp-hero .flexslider .slider-text > .slider-text-inner h1 {
-        font-size: 3.5rem;
+        font-size: 2.3rem;
     }
     .kp-hero .flexslider .slider-text > .slider-text-inner h2 {
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .kp-hero .flexslider .slider-text > .slider-text-inner h1 {
+        font-size: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .kp-hero .flexslider .slider-text > .slider-text-inner h1 {
+        font-size: 3.5rem;
     }
 }
 
