@@ -18,75 +18,104 @@
     <![endif]-->
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <div id="kp-page"> <a href="#" class="js-kp-nav-toggle kp-nav-toggle"><i></i></a>
-        <!-- Sidebar Section -->
-        <aside id="kp-aside">
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
             <!-- Logo -->
-            <div id="kp-logo"> 
-                <a href="index.html"><img src="images/logo.png" alt=""><span>Kevin Peplinski</span></a> 
-            </div>
-            <!-- Menu -->
-            <nav id="kp-main-menu">
-                <ul>
-                    <li><a href="index.html#home">Home</a></li>
-                    <li><a href="index.html#about">About Me</a></li>
-                    <li><a href="index.html#skills">My Skills</a></li>
-                    <li><a href="index.html#eduexp">Experience and Education</a></li>
-                    <li><a href="index.html#apps">Apps</a></li>
-                    <li><a href="index.html#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <!-- Sidebar Footer -->
-            <div class="kp-footer">
-                <ul>
-                    <li><a href="#"><i class="ti-stack-overflow font-14px white-icon"></i></a></li>
-                    <li><a href="#"><i class="ti-github font-14px white-icon"></i></a></li>
-                    <li><a href="#"><i class="ti-linkedin font-14px white-icon"></i></a></li>
+            <a class="logo" href="index.html"> <img src="images/logo2.png" alt=""> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="icon-bar"><i class="ti-line-double"></i></span> </button>
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="game-watcher.html#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="game-watcher.html#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="game-watcher.html#download">Download</a></li>
                 </ul>
             </div>
-        </aside>
-        <!-- Main Section -->
-        <div id="kp-main">
-            <div class="kp-projects" id="test">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12"> <span class="heading-meta">IOS App</span>
-                            <h1 class="kp-heading animate-box white-text blastMe" aria-label="Game Watcher">Game Watcher</h1> 
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3 image-content animate-box fadeInLeft animated" data-animate-effect="fadeInLeft"> 
-                            <img class="img-fluid mb-30" src="images/game-watcher-1.png" alt=""> 
-                            <img class="img-fluid mb-30" src="images/game-watcher-3.png" alt=""> 
-                        </div>
-                        <div class="col-md-3 image-content animate-box fadeInLeft animated" data-animate-effect="fadeInLeft"> 
-                            <img class="img-fluid mb-30" src="images/game-watcher-2.png" alt=""> 
-                            <img class="img-fluid mb-30" src="images/game-watcher-4.png" alt=""> 
-                        </div>
-                        <!-- <div class="col-md-6 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                            <div id="sticky_item" class="">
-                                <div class="project-desc">
-                                    <h2>Block 8</h2>
-                                    <p>Yuroin non lorem ac erat suscipit bibendum. Nulla facilisi. Sedeuter nunc volutpat, mollis sapien vel, conseyer turpeutionyer massa in libero semper. Fusce mollis augue sit amet hendrerit vestibulum. Duisteyerionyer venenatis lacus.</p>
-                                    <p>Fusce mollis augue sit amet hendrerit vestibulum. Duisteyerionyer venenatis lacus.</p>
-                                    <p>Yuroin non lorem ac erat suscipit bibendum. Nulla facilisi. Sedeuter nunc volutpat, mollis sapien veli, conseyer turpeutionyer massa in libero semper.</p>
-                                    <p>
-                                        <b>Project Name:</b> Block 8 <br>
-                                        <b>Client:</b> Creative Market <br>
-                                        <b>Skills:</b> Photoshop S4 <br>
-                                        <b>Category:</b> Branding Desing
-                                    </p> 
+        </div>
+    </nav>
+
+    <div id="home" class="section">
+        <div class="kp-hero js-fullheight">
+            <!-- Slider -->
+            <div class="flexslider js-fullheight">
+                <ul class="slides">
+                    <li style="background-image: url(images/background.jpg);">
+                        <div class="overlay"></div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12 js-fullheight slider-text">
+                                    <div class="slider-text-inner">
+                                        <div class="app-icon"> <img src="images/APP ICON ORIGINAL.png" alt=""> </div>
+                                        <div class="desc text-zone">
+                                            <h1 aria-label="GAME WATCHER" class="blastMe">GAME WATCHER</h1>
+                                            <h2 class="cd-headline clip white-text">
+                                                <span>iOS App</span>
+                                            </h2> </div>
+                                        <div class="arrow bounce">
+                                            <a href="index.html#about" data-scroll-nav="1" class=""> <i class="ti-angle-double-down"></i> </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div> -->
-                    </div>
-                    <div class="row">
-                        <a href="https://apps.apple.com/us/app/gamewatcher-release-timer/id1533525800" class="ml-15"><img src="images/app-store.svg" alt=""></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="kp-projects kp-project" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"> <span class="heading-meta">Information</span>
+                    <h1 class="kp-heading animate-box white-text blastMe" aria-label="Game Watcher">About</h1> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 image-content animate-box fadeInLeft animated" data-animate-effect="fadeInLeft"> 
+                    <img class="img-fluid mb-30" src="images/game-watcher-1.png" alt=""> 
+                    <img class="img-fluid mb-30" src="images/game-watcher-3.png" alt=""> 
+                </div>
+                <div class="col-md-3 image-content animate-box fadeInLeft animated" data-animate-effect="fadeInLeft"> 
+                    <img class="img-fluid mb-30" src="images/game-watcher-2.png" alt=""> 
+                    <img class="img-fluid mb-30" src="images/game-watcher-4.png" alt=""> 
+                </div>
+                <div class="col-md-6 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                    <div id="sticky_item" class="">
+                        <div class="project-desc">
+                            <h2>Description</h2>
+                            <p><b>GameWatcher - Release Timer</b> helps you to track the release dates of your favorite games.
+                            Let yourself be reminded regularly about the remaining time until the release.
+                            Or go a step further and personalize your home screen like you have never done before and show the remaining time until the release of your favorite game directly in a great widget.
+                            Get informed about changes to the release date of your favorite games.</p>
+                            <h2>Tech Details</h2>
+                            <p>
+                                Swift, Widgets, SwiftUI, CoreData, Java Spring Backend in AWS Elastic Beanstalk, Darkmode, Notifications, Networking, Custom Animations, Background Tasks
+                            </p>
+                            <p>
+                                <b>Game metadata is powered by <a class="link" href="https://www.igdb.com/">IGDB.com</a></b>
+                            </p>  
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="kp-projects kp-project" id="download">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"> <span class="heading-meta">Get It</span>
+                    <h1 class="kp-heading animate-box white-text blastMe" aria-label="Game Watcher">Download</h1> 
+                </div>
+            </div>
+            <div class="row">
+                <a href="https://apps.apple.com/us/app/gamewatcher-release-timer/id1533525800" class="ml-15"><img src="images/app-store.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+
     <!-- Js -->
     <script src="js/jquery.min.js"></script>
     <script src="js/modernizr-2.6.2.min.js"></script>

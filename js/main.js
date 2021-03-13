@@ -206,7 +206,7 @@ $('a[href*="#"]')
 $("#nav_bar nav a").removeClass("active");
 $(".home-link").addClass("active");
 
-$("h1.blastMe").blast({
+$(".blastMe").blast({
   delimiter: "character",
   tag: "span"
 });
@@ -257,3 +257,23 @@ setTimeout(function() {
     );
   });
 }, 3000);
+
+var wind = $(window);
+// Navbar scrolling background
+wind.on("scroll", function () {
+  var bodyScroll = wind.scrollTop()
+      , navbar = $(".navbar")
+      , logo = $(".navbar .logo> img");
+  if (bodyScroll > 100) {
+      navbar.addClass("nav-scroll");
+      logo.attr('src', 'images/logo2.png');
+  }
+  else {
+      navbar.removeClass("nav-scroll");
+      logo.attr('src', 'images/logo2.png');
+  }
+});
+// Close navbar-collapse when a  clicked
+$(".navbar-nav a").on('click', function () {
+  $(".navbar-collapse").removeClass("show");
+});
