@@ -1830,6 +1830,7 @@ ul.social-network li {
     margin: 15px 15px;
     border-radius: 50%;
     -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
     background-color: rgba(248, 248, 248, 0.1);
 }
 
@@ -2452,10 +2453,18 @@ hr {
     padding: 15px 0;
     min-height: 72px;
 
-
-    -webkit-backdrop-filter: blur(20px);
-    background-color: rgba(64, 64, 64, 0.1);
+    background-color: rgba(22, 22, 22, 0.95);
 }
+
+/* if backdrop support: very transparent and blurred */ 
+@supports ((-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))) {
+    .nav-scroll {
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        background-color: rgba(64, 64, 64, 0.1);
+    }
+}
+
 .nav-scroll .navbar-nav .nav-link {
     color: #fff;
 }
