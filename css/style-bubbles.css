@@ -1,0 +1,59 @@
+::-webkit-selection {
+    background: #bf5af2 !important;
+}
+
+::selection {
+    background: #bf5af2 !important;
+}
+
+#kp-aside #kp-logo span {
+    color: #bf5af2 !important;
+}
+
+.email:hover {
+    color: #bf5af2 !important;
+}
+
+#kp-aside #kp-logo a {
+    color: #bf5af2 !important;
+}
+
+.timeline:before {
+    background: #bf5af2 !important;
+} 
+
+#kp-aside #kp-main-menu ul li a:hover {
+    color: #bf5af2 !important;
+}
+
+#kp-aside #kp-main-menu ul li.kp-active a {
+    color: #bf5af2 !important;
+}
+
+.kp-heading {
+    color: #bf5af2 !important;
+}
+
+.kp-feature .kp-text h3 {
+    color: #bf5af2 !important;
+}
+
+.highlight h1 {
+    color: #bf5af2 !important;
+}
+
+.cd-words-wrapper b {
+    color: #bf5af2 !important;
+}
+
+.blast:hover {
+    color: #bf5af2 !important;
+}
+
+.nav-scroll .nav-item a:hover {
+    border-bottom: 3px solid #bf5af2 !important;
+}
+
+a.link {
+    color: #bf5af2 !important;
+}

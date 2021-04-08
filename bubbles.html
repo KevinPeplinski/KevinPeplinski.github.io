@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/flexslider.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-bubbles.css">
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]>
         <script src="js/respond.min.js"></script>
@@ -27,9 +28,9 @@
             <!-- navbar links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="game-watcher.html#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="game-watcher.html#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="game-watcher.html#download">Download</a></li>
+                    <li class="nav-item"><a class="nav-link" href="bubbles.html#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="bubbles.html#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="bubbles.html#download">Download</a></li>
                 </ul>
             </div>
         </div>
@@ -40,20 +41,20 @@
             <!-- Slider -->
             <div class="flexslider js-fullheight">
                 <ul class="slides">
-                    <li style="background-image: url(images/background-game-watcher.jpg);">
+                    <li style="background-image: url(images/background-bubbles.jpg);">
                         <div class="overlay"></div>
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-md-12 js-fullheight slider-text">
                                     <div class="slider-text-inner">
-                                        <div class="app-icon"> <img src="images/APP ICON ORIGINAL.png" alt=""> </div>
+                                        <div class="app-icon"> <img src="images/bubbles-app-icon.png" alt=""> </div>
                                         <div class="desc text-zone">
-                                            <h1 aria-label="GAME WATCHER" class="blastMe">GAME WATCHER</h1>
+                                            <h1 aria-label="BUBBLES" class="blastMe">BUBBLES</h1>
                                             <h2 class="cd-headline clip white-text">
                                                 <span>iOS App</span>
                                             </h2> </div>
                                         <div class="arrow bounce">
-                                            <a href="game-watcher.html#about" data-scroll-nav="1" class=""> <i class="ti-angle-double-down"></i> </a>
+                                            <a href="bubbles.html#about" data-scroll-nav="1" class=""> <i class="ti-angle-double-down"></i> </a>
                                         </div>
                                     </div>
                                 </div>
@@ -69,33 +70,37 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12"> <span class="heading-meta">Information</span>
-                    <h1 class="kp-heading animate-box white-text blastMe" aria-label="Game Watcher">About</h1> 
+                    <h1 class="kp-heading animate-box white-text blastMe" aria-label="About">About</h1> 
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-3 image-content animate-box fadeInLeft animated" data-animate-effect="fadeInLeft"> 
-                    <img class="img-fluid mb-30" src="images/game-watcher-1.png" alt=""> 
-                    <img class="img-fluid mb-30" src="images/game-watcher-3.png" alt=""> 
+                    <img class="img-fluid mb-30" src="images/bubbles-1.png" alt=""> 
+                    <img class="img-fluid mb-30" src="images/bubbles-3.png" alt="">
+                    <img class="img-fluid mb-30" src="images/bubbles-watch-1.png" alt=""> 
                 </div>
                 <div class="col-md-3 image-content animate-box fadeInLeft animated" data-animate-effect="fadeInLeft"> 
-                    <img class="img-fluid mb-30" src="images/game-watcher-2.png" alt=""> 
-                    <img class="img-fluid mb-30" src="images/game-watcher-4.png" alt=""> 
+                    <img class="img-fluid mb-30" src="images/bubbles-2.png" alt=""> 
+                    <img class="img-fluid mb-30" src="images/bubbles-4.png" alt=""> 
+                    <img class="img-fluid mb-30" src="images/bubbles-watch-2.png" alt=""> 
                 </div>
                 <div class="col-md-6 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
                     <div id="sticky_item">
                         <div class="project-desc">
                             <h2>Description</h2>
-                            <p><b>GameWatcher - Release Timer</b> helps you to track the release dates of your favorite games.
-                            Let yourself be reminded regularly about the remaining time until the release.
-                            Or go a step further and personalize your home screen like you have never done before and show the remaining time until the release of your favorite game directly in a great widget.
-                            Get informed about changes to the release date of your favorite games.</p>
+                            <p><b>Bubbles - Time Sheet</b> is a simple and fun alternative to the classic working time recording. Recording working hours is usually an unpopular and boring, but mostly necessary, task. Bubbles focuses on a simple, but very interactive and fun user experience to make the process of recording working time a little bit more bearable. </p>
+
+                            <p>To start the time tracking process, simply drag a Project Bubble and then the corresponding Task Bubble to the bottom of the screen. Bubbles will do the rest! 
+                                To stop the recording, simply drag the corresponding bubble back up.</p>
+                                
+                                <p>The recorded times can be displayed via the calendar view. Projects and associated tasks can be easily managed.</p>
+                                
+                                <p>To make the recording of times even more comfortable, Bubbles also offers a Watch App, which allows you to control the time recording process easily on your wrist.</p>
+
                             <h2>Tech Details</h2>
                             <p>
-                                Swift, Widgets, SwiftUI, CoreData, Java Spring Backend in AWS Elastic Beanstalk, Darkmode, Notifications, Networking, Custom Animations, Background Tasks
+                                Swift, WatchKit, SwiftUI, CoreData, WKExtension, Combine, Darkmode, Custom UI Components, Custom Animations, Complex Userinterface
                             </p>
-                            <p>
-                                <b>Game metadata is powered by <a class="link" href="https://www.igdb.com/">IGDB.com</a></b>
-                            </p>  
                         </div>
                     </div>
                 </div>
@@ -107,7 +112,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12"> <span class="heading-meta">Get It</span>
-                    <h1 class="kp-heading animate-box white-text blastMe" aria-label="Game Watcher">Download</h1> 
+                    <h1 class="kp-heading animate-box white-text blastMe" aria-label="Download">Download</h1> 
                 </div>
             </div>
             <div class="row">
