@@ -2497,3 +2497,12 @@ hr {
 a.link {
     color: #ff9f0a;
 }
+ul.about-list {
+    list-style-type: circle;
+    color: #fff;
+}
+
+img.hello-hand {
+    width: 25px;
+    margin: 0 5px 0 5px;
+}
